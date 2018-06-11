@@ -54,7 +54,7 @@ public class Calc {
 	public int criticalIn(int result, double drunk)
 	{
 		int res = (rnd.nextInt(10));
-		if(res<=(drunk + 4))
+		if(res<=(drunk+4))
 		{
 			return (result * 2);
 		}
